@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react-app/recommended"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "always"
+    ],
+    "no-cond-assign": [
+      "error",
+      "always"
+    ],
+    "no-console": "error",
+    "react-app/react/react-in-jsx-scope": [
+      "warn"
+    ],
+    "react-app/jsx-a11y/href-no-hash": "off"
+  }
+}
