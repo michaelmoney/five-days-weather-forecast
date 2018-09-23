@@ -1,0 +1,32 @@
+.box {
+  border: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 350px; }
+  .box .box-body {
+    padding: 20px;
+    box-shadow: 0px 0px 13px 0px #cfcfcf;
+    background: linear-gradient(135deg, #f7fbfd 0%, #ace2f6 99%, #f7fbfd 100%);
+    border-radius: 7px; }
+    .box .box-body .weather-month {
+      color: #969696; }
+    .box .box-body .temperature {
+      font-size: 50px; }
+      .box .box-body .temperature .max {
+        font-size: 50px; }
+      .box .box-body .temperature .min {
+        font-size: 35px;
+        color: #969696; }
+    .box .box-body .weather-details {
+      color: #969696; }
+    .box .box-body .weather-main {
+      font-size: 35px; }
+    .box .box-body .weather-temp-section {
+      display: flex; }
+      .box .box-body .weather-temp-section > img {
+        width: 50px;
+        height: 50px; }
+    .box .box-body .weather-date-section {
+      font-weight: 700; }
+      .box .box-body .weather-date-section > .weather-day {
+        color: #22BEFF; }

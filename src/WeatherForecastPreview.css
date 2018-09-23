@@ -1,0 +1,14 @@
+.wrapper {
+  width: 95%;
+  margin: 0 auto; }
+  .wrapper h6 {
+    margin: 0;
+    padding-left: 0;
+    font-weight: 700;
+    margin: 10px 0; }
+  .wrapper .alert.alert-danger {
+    margin-top: 50px; }
+  .wrapper .btn-success {
+    margin-top: 10px; }
+  .wrapper .navbar > h1 {
+    font-weight: 700; }

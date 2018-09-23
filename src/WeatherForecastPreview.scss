@@ -1,0 +1,27 @@
+$font-weight-bold: 700;
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+  h6 {
+    margin: 0;
+    padding-left: 0;
+    font-weight: $font-weight-bold;
+    margin: 10px 0;
+  }
+
+  .alert {
+    &.alert-danger {
+      margin-top: 50px;
+    }
+  }
+  .btn-success {
+    margin-top: 10px;
+  }
+  .navbar {
+    > h1 {
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+

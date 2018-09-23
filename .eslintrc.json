@@ -10,7 +10,10 @@
     ],
     "quotes": [
       "error",
-      "single"
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
     ],
     "semi": [
       "error",
@@ -18,7 +21,14 @@
     ],
     "comma-dangle": [
       "error",
-      "always"
+      {
+        "arrays": "always",
+        "objects": "always",
+        "imports": "never"
+      }
+    ],
+    "object-curly-spacing": [
+      "error", "always"
     ],
     "no-cond-assign": [
       "error",

@@ -1,0 +1,55 @@
+$grey-color: #969696;
+$weather-icon-size: 50px;
+$weather-day-color: #22BEFF;
+$weather-box-gradient: linear-gradient(135deg, rgba(247, 251, 253, 1) 0%, rgba(172, 226, 246, 1) 99%, rgba(247, 251, 253, 1) 100%);
+$weather-box-shadow: 0px 0px 13px 0px rgba(207, 207, 207, 1);
+$weather-box-padding: 15px;
+$weather-box-height: 350px;
+$weather-font-size-xl: 50px;
+$weather-font-size-md: 35px;
+
+.box {
+  border: 0;
+  padding-top: $weather-box-padding;
+  padding-bottom: $weather-box-padding;
+  height: $weather-box-height;
+  .box-body {
+    padding: 20px;
+    box-shadow: $weather-box-shadow;
+    background: $weather-box-gradient;
+    border-radius: 7px;
+    .weather-month {
+      color: $grey-color;
+    }
+    .temperature {
+      font-size: $weather-font-size-xl;
+      .max {
+        font-size: $weather-font-size-xl
+      }
+      .min {
+        font-size: $weather-font-size-md;
+        color: $grey-color;
+      }
+    }
+    .weather-details {
+      color: $grey-color;
+    }
+    .weather-main {
+      font-size: $weather-font-size-md;
+    }
+    .weather-temp-section {
+      display: flex;
+      > img {
+        width: $weather-icon-size;
+        height: $weather-icon-size;
+      }
+    }
+    .weather-date-section {
+      font-weight: 700;
+      > .weather-day {
+        color: $weather-day-color;
+      }
+    }
+  }
+}
+
