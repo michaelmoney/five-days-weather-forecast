@@ -52,7 +52,6 @@ class WeatherForecastPreview extends Component {
                     </div>
                 </div>
             </div>
-
         );
     }
 

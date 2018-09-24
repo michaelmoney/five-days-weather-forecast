@@ -6,7 +6,7 @@
     "name": "Michael Money - Michal Pieniazek",
     "email": "mpieniazek@me.com"
   },
-  "homepage": "http://michaelmoney.pl",
+  "homepage": "https://michaelmoney.gitlab.io/five-days-weather-forecast/",
   "engines": {
     "node": "8.10.0"
   },

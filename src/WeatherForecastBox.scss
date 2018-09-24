@@ -13,6 +13,10 @@ $weather-font-size-md: 35px;
   padding-top: $weather-box-padding;
   padding-bottom: $weather-box-padding;
   height: $weather-box-height;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05, 1.05);
+  }
   .box-body {
     padding: 20px;
     box-shadow: $weather-box-shadow;

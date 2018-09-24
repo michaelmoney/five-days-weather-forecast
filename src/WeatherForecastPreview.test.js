@@ -12,14 +12,12 @@ describe('When components is initialized', () => {
     let component;
     let prepareForecast;
     let fetchWeather;
-    let displayForecastBox;
     beforeEach(() => {
         axios.mockImplementation(() => {
             return Promise.resolve({ data: { list: [], }, });
         });
         prepareForecast = jest.spyOn(WeatherForecastPreview.prototype, 'prepareView');
         fetchWeather = jest.spyOn(WeatherForecastPreview.prototype, 'fetchWeatherForecast');
-        displayForecastBox = jest.spyOn(WeatherForecastPreview.prototype, 'displayForecastBox');
         wrapper = shallow(<WeatherForecastPreview/>);
         component = wrapper.instance();
     });
