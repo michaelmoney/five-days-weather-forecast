@@ -19,7 +19,7 @@ Built with HTML, React, Bootstrap 4 and Sass. App supports responsive web design
 
 Now you need to install all requiredd dependencies using yarn/npm. Run following command:
 ```bash
-yarn install
+npm install / yarn install
 ```
 
 ## Development
@@ -27,7 +27,7 @@ yarn install
 ### Run application locally inside the browser:
 To run application locally, simply run following command:
 ```bash
-yarn start
+npm start / yarn start
 ```
 If no errors, it will build and serve application which is accessible from the browser
 under below url:
@@ -39,7 +39,7 @@ http://localhost:3000/
 
 To check if there are no JavaScript errors in the code, run:
 ```bash
-yarn run lint
+npm run lint / yarn run lint
 ```
 
 NOTE: Linter is triggerd with `--fix` flag, which allows auto fix most common errors / warnings.
@@ -50,14 +50,14 @@ Eslint extends `create-react-app` default rules as well as `eslint:recommended` 
 
 To run unit-test written using jest and enzyme, run in the terminal:
 ```bash
-yarn run test
+npm runt test / yarn run test
 ```
 
 ## Build app for the production
 To build an application run:
 
 ```bash
-yarn run build
+npm run build / yarn run build
 ```
 
 This will build application inside /build folder insider root project's folder.
