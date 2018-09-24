@@ -17,7 +17,7 @@ Built with HTML, React, Bootstrap 4 and Sass. App supports responsive web design
 
 ###  Dependencies installation
 
-Now you need to install all requiredd dependencies using yarn/npm. Run following command:
+Now you need to install all required dependencies using yarn/npm. Run following command:
 ```bash
 npm install / yarn install
 ```
