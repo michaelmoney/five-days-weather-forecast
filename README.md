@@ -11,7 +11,7 @@ Built with HTML, React, Bootstrap 4 and Sass. App supports responsive web design
 
 ###  Pre-requirements
 
-1. Make sure that you have node version `8.10.0`
+1. Make sure that you have node version >= `8.10.0`
 2. Install `yarn` package manager globally. `npm` should work as well and it comes within node _out of the box_.
 3. (Optionally) Docker.
 
