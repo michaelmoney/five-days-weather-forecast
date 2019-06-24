@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class OpenWeatherApiService {
+class OpenWeatherApiService  {
     static config = {
         baseUrl: 'https://api.openweathermap.org/data/2.5/forecast/daily',
         mode: 'json',
