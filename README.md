@@ -1,3 +1,6 @@
+![travis](https://travis-ci.org/michaelmoney/five-days-weather-forecast.svg?branch=master)
+[![codecov](https://codecov.io/gh/michaelmoney/five-days-weather-forecast/branch/master/graph/badge.svg)](https://codecov.io/gh/michaelmoney/five-days-weather-forecast)
+
 # Five days weather forecast app
 
 **A simple web application that display five days forecast weather using OpenWeather API.
