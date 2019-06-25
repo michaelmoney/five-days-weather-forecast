@@ -6,7 +6,7 @@
 **A simple web application that display five days forecast weather using OpenWeather API.
 Built with HTML, React, Bootstrap 4 and Sass. App supports responsive web design.**
 
-
+    
 ![Preview1](./main.jpg)
 
 
